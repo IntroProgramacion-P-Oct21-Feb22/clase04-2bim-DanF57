@@ -21,7 +21,7 @@ public class Ejemplo05 {
         
     public static void obtenerSuma(int a, int b){
         int suma;
-        suma = a + b;
+        suma = a + b; // 10 + 30
         System.out.printf("El valor de la suma es: %d\n", suma);
         
     }

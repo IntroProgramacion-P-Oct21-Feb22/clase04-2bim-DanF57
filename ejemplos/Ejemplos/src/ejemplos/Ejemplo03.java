@@ -16,13 +16,16 @@ public class Ejemplo03 {
         int valor = obtenerSuma(10, 30); // se invoca al método 
                                          // obtenerSuma
         System.out.printf("El valor de la suma es: %d\n", valor);
+        System.out.printf("El valor de la suma es: %d\n",obtenerSuma(20, 30));
     }
     
     
     public static int obtenerSuma(int a, int b){
-        int suma;
+        /*int suma;
         suma = a + b;
-        return suma;
+        return = suma;
+        */
+        return a + b;
     }
     
     
